@@ -34,6 +34,6 @@ class Book extends Model
      */
     public function authors(): BelongsToMany
     {
-        return $this->belongsToMany(Author::class, 'author_book_pivot', 'book_id', 'author_id');
+        return $this->belongsToMany(Author::class, 'author_book_pivots', 'book_id', 'author_id');
     }
 }
