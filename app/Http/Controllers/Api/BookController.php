@@ -92,6 +92,6 @@ class BookController extends Controller
 
         return response()->json([
             'success' => $success
-        ], $success ? 200 : 500);
+        ], $success ? 204 : 500);
     }
 }
