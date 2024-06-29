@@ -16,3 +16,7 @@ fanno le chiamate API (es. Postman):
 ```
 "Accept": "application/json"
 ```
+Test in tests/Features
+```
+php artisan test
+```
